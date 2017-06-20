@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cs4k Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="blueberry.css" />
+    <style type="text/css">
+        {
+            margin: 0;
+            border: 0;
+            padding:0;
+        }
+        body{
+            background: #f0f0f0;
+            font: 14px/20px Arial, San-Seriff;
+            color: #555;
+            margin: 0;
+        }
+        h1{
+            text-align: center;
+            font-size: 180%;
+            line-height: 120%;
+            padding: 5% 0;
+        }
+        h2{
+            text-decoration: underline;
+            line-height: 280%;
+            padding-left: 2%;
+        }
+        p{
+            padding: 1%;
+        }
+        img{
+            text-align: center;
+            max-width: 100%;
+            height: auto;
+            width: auto;
+        }
+        a{
+            color:#fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover{
+            color:#fff;
+            text-decoration: underline;
+
+        }
+        header{
+            background: #405580;
+            width: 100%;
+            height: 86px;
+            position: fixed;
+            top:0;
+            left:0;
+            z-index: 100;
+            opacity: 0.90;
+        }
+        headergap{
+            background: #405580;
+            width: 100%;
+            height: 86px;
+            top:0;
+            left:0;
+            z-index: 100;
+            opacity: 0.90;
+        }
+        #logo{
+            margin: 0;
+            float: left;
+            width: 200px;
+            height: 100px;
+            background: url(cs4k-logo.png) center;
+        }
+        nav{
+            float: right;
+            padding: 35px 30px 20px 0;
+        }
+        #menu-icon{
+            display:hidden;
+            width:40px;
+            height: 40px;
+            background: url(http://www.w3newbie.com/wp-content/uploads/icon.png) center;
+        }
+        a:hover#menu-icon{
+            border-radius: 4px 4px 0 0;
+
+        }
+        ul{
+            list-style: none;
+        }
+        nav ul li{
+            display:inline-block;
+            float: left;
+            padding: 10px;
+        }
+        .current{
+            color: #FFF;
+            text-decoration: underline;
+        }
+        #doc{
+            margin: 40px 0;
+        }
+        #content{
+            margin: 0 auto;
+            max-width: 1140px;
+            margin-top: 110px;
+        }
+        .blueberry{
+            max-width: 960px;
+            margin-top: 110px;
+        }
+        leftsection{
+            width: 29%;
+            float: left;
+            margin: 2% 2%;
+            text-align: left;
+            padding-left: 16%;
+        }
+        rightsection{
+            width: 29%;
+            float: left;
+            margin: 2% 2%;
+            text-align: right;
+            padding-right: 16%;
+        }
+
+        .clear{
+            clear: both;
+        }
+        article{
+            float: left;
+            margin: 0 auto;
+            width: 30%;
+            height: auto;
+            padding-left: 18%;
+        }
+        aside{
+            border: 5px #666;
+            float: none;
+            margin: 0 auto;
+            width: 30%;
+            height: auto;
+            padding-left: 48%;
+            padding-right: 18%;
+            text-align: right;
+        }
+        centercontent{
+            float: left;
+            margin: 0 auto;
+            width: 60%;
+            height: auto;
+            padding-left: 18%;
+            padding-right: 18%;
+            text-align: center;
+        }
+
+        ul.gym li{
+            padding-left: 3%;
+        }
+        footer{
+            background: #333333;
+            width: 100%;
+            overflow: hidden;
+            opacity: 0.90;
+        }
+        footer p, footer h3{
+            color: #FFF;
+        }
+        footer p a {
+            color: #FFF;
+            text-decoration: none;
+        }
+        ul.social li{
+            display: inline;
+        }
+        ul.social li img{
+            height: 50px;
+        }
+        footer.second{
+            border-top: 1px solid #404E50;
+            background-color: #333333;
+            max-height: 50px;
+            text-align: center;
+            opacity: 0.95;
+        }
+        /*---------------------------MEDIA!!!-------------------------*/
+        @media screen and (max-width: 478px){
+            body{
+                position: absolute;
+            }
+        }
+        @media screen and (max-width: 478px){
+            header{
+                position: absolute;
+            }
+            #menu-icon{
+                display: inline-block;
+            }
+            nav ul, nav:active ul{
+                display: none;
+                position: absolute;
+                padding: 20px;
+                background: #405580;
+                border: 1px solid #FFF;
+                right: 20px;
+                top: 60px;
+                width: 50px;
+                border-radius: 2px 0 2px 2px;
+            }
+            nav li{
+                text-align: center;
+                width: 100%;
+                padding: 10px 0;
+                margin: 0;
+            }
+            nav:hover ul{
+                display: block;
+            }
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="#" id="logo"></a>
+        <nav>
+            <a href="#" id="menu-icon"></a>
+            <ul>
+                <li><a href="#" class="current">Home</a></li> <!-- list item -->
+                <li><a href="#" class="current">About Us</a></li> <!-- list item -->
+                <li><a href="volunteers.html">Volunteers</a></li> <!-- list item -->
+                <li><a href="#" class="current">Pricing</a></li> <!-- list item -->
+                <li><a href="#" class="current">Facility</a></li> <!-- list item -->
+                <li><a href="#" class="current">Contact</a></li> <!-- list item -->
+            </ul> <!-- unordered list -->
+        </nav>
+    </header>
+   
+    <headergap>
+</br></br></br></br></br></br>
+    </headergap>
+
+    <div class="clear">
+    <article>
+        <img src="http://www.w3newbie.com/wp-content/uploads/gym-classes.png">
+    </article>
+    <aside>
+        <h2>Our Volunteers</h2>
+            <p>heasiojrosa</p>
+    </aside>
+    </div>
+
+    <div class="clear">
+    <centercontent>
+        <p>2013-2014 2014-2015 2016-2017 2017-2018</br></br>
+list of names go here 
+</br>name
+</br>name</br>name</br>name</br>name</br>name</br>name</br>name</br></br>_________________________________________________________________________________________________________________</p>
+
+    </centercontent>
+    </div>
+
+    <div class="clear">
+    <article>
+        <h2>Volunteers of the Quarterh2>
+            <p>List of names hre</p>
+
+    </article>
+    <aside>
+        <img src="http://www.w3newbie.com/wp-content/uploads/gym-classes.png">
+    </aside>
+    </div>
+
+
+    <div class="clear">
+        <footer>
+            <leftsection>
+            </br>
+            <a href="main_page.html">Home</a>     
+            <a href="main_page.html">About Us</a>     
+            <a href="main_page.html">Mission Statement</a>
+            </br>
+            <a href="main_page.html">History</a>
+            <a href="main_page.html">Publications</a>
+            <a href="main_page.html">Our Volunteers</a>
+            </br>
+            <a href="main_page.html">Our Officers</a>
+            <a href="main_page.html">Our Schools</a>
+            <a href="main_page.html">Become a Volunteer</a>
+
+
+            <p>__________________________________________</p>
+            <p>&copy; 2017 COMPUTER SCIENCE 4 KIDS (CS4K)</p>
+            </leftsection>
+            <rightsection>
+                <h3><b>Computer Science for Kids (CS4K)</b></h3> 
+                <p>215-555-555</br>cs4k@gmail.com</p>
+                    <ul class="social">
+                        <li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/facebook.png" /></a></li>
+                    </ul>
+            </rightsection>
+        </footer>
+    </div>
+
+</body>
+</html>
+
